@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Crimson+Text:600i|Lobster|Mukta+Malar');
+
+/**{
+    outline: 1px solid red;
+    top:0;
+}*/
+
+/* Encabezado */
+header {
+    background-image: url(../img/header-bg.jpg);
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title-general{
+    font-family: 'Courgette', cursive;
+    font-size: 3em;
+    color: #EECD14;
+}
+
+ header .navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+header .action{
+    color: #fff;
+    padding-top: 20vw;
+}
+
+header .action>h1{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+header .action .btn-warning {
+    color: #fff;
+    background-color: #EECD14;
+    border-color: #EECD14;
+    padding: 15px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Section 1*/
+
+.servicio i{
+    font-size: 6em;
+    margin-bottom: 15px;
+}
+
+/* Seccion Contacto*/
+
+#section6 {
+    background-image: url(../img/map-image.png);
+    background-color: #000;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    background-color: #fff;
+}
+
+.footer-col ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.item{
+    width: 100%;
+}
+
+.btn-social{
+    font-size: 1.5vw;
+    line-height: 45px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #000;;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.btn-social:hover{
+    background: #fff;
+}
+
+.footer-col .linken{
+    color: #18bc9c;
+}
+
+.footer-col .linken:hover{
+    text-decoration: underline;
+    color: #18bc9c;
+}
+
+.footer-below{
+    font-size: 1.4vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#section6{
+    background-image: url(../img/map-image.png);
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
