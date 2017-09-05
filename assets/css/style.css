@@ -160,7 +160,7 @@ p{
 }
 
 .two-name{
-    padding-bottom: 3vw;
+    padding-bottom: 3.2vw;
 }
 
 .blanco-nombre{
@@ -172,6 +172,80 @@ p{
 }
 
 /* Definiendo estilos a ABOUT seccion3*/
+.btn-story{
+    border-radius: 100%;
+    background-color: #f7d606;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: 5vw 1vw;
+    color: #fff;
+}
+
+/* Definiendo estilo a la seccion4 de AMAZING */
+#section4{
+    background-color: #E4E1D8;
+    text-align: center;
+    display: flex;
+}
+#section4 .container-fluid{
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
+
+#section4 .container-fluid .container .col-md-4{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.team-col ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+}
+
+.btn-team{
+    font-size: 1em;
+    line-height: 45px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: #000;
+}
+
+#section4 .container-fluid .container .row .col-md-4 .btn-team .fa{
+    color: #fff;
+} 
+
+
+.btn-tema:hover{
+    background: #fff;
+}
+
+/* Definiendo estilo seccion5 LOGOTIPOS */
+#section5{
+    display: flex;
+}
+#section5 .container-fluid{
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
+
+#box-logos .col-md-3{
+    margin-top: 30px;
+}
+
+.etiqueta{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 /* Seccion Contacto*/
 
 #section6 {
@@ -201,12 +275,8 @@ footer{
     padding: 0;
 }
 
-.item{
-    width: 100%;
-}
-
 .btn-social{
-    font-size: 1.5vw;
+    font-size: 1em;
     line-height: 45px;
     width: 50px;
     height: 50px;
@@ -214,23 +284,17 @@ footer{
     border: 2px solid #000;;
     border-radius: 100%;
     padding: 10px;
+    background-color: #000;
 }
-
 .btn-social:hover{
     background: #fff;
 }
-
-.footer-col .linken{
-    color: #18bc9c;
+.btn-social .fa:hover{
+    color: #000;
 }
 
-.footer-col .linken:hover{
-    text-decoration: underline;
-    color: #18bc9c;
-}
-
-.footer-below{
-    font-size: 1.4vw;
+footer .btn-social .fa{
+    color: #fff;
 }
 
 
