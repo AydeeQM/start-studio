@@ -1,13 +1,11 @@
-
-/*let picture = ['assets/img/img-1.png', 'assets/img/img-2.png', 'assets/img/img-3.png', 'assets/img/img-4.png', 'assets/img/img-5.png', 'assets/img/img-6.png'];
-
-let div = "";
-div += "<div class='container'>"
-
-    $.grep(picture, function (value, index) {
-        $('#box-images').append(
-            div += "<div class='col-md-4'><img src='assets/img/img-" + [index + 1] + ".png'/></div>");
-        
-});
-
-div += "</div>";*/
+function scrolling(e) {
+    var menu = document.getElementById('menu');
+    var smoothScroll = window.pageYOffset || document.body.scrollTop;
+    if (smoothScroll > 10) {
+        console.log(menu);
+        menu.style.background = "#222";
+    } else {
+        menu.style.background = "transparent"
+    }
+}
+window.addEventListener("scroll", scrolling);
