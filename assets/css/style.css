@@ -127,15 +127,6 @@ p{
     padding-top: 3vw;
 }
 
-/*.parrafo h4{
-    font-weight: bold;
-}
-
-.parrafo p{
-    font-family: 'Roboto Slab', serif;
-}*/
-
-
 .btn-servicio {
     font-size: 4em;
     line-height: 45px;
@@ -153,7 +144,34 @@ p{
     background: #E8B00F;
 }
 
+/* definiendo estilo a la seccion2 portafolio */
+#section2{
+    background-color: #E4E1D8;
+    text-align: center;
+    display: flex;
+}
+#section2 .container-fluid{
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
 
+#section2 .container-fluid .container .col-md-4{
+    margin-top: 25px;
+}
+
+.two-name{
+    padding-bottom: 3vw;
+}
+
+.blanco-nombre{
+    background-color: #fff;
+    padding-bottom: 1vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Definiendo estilos a ABOUT seccion3*/
 /* Seccion Contacto*/
 
 #section6 {
